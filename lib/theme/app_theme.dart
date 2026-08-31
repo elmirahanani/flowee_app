@@ -108,7 +108,7 @@ String formatRupiah(double price) {
 
   for (int i = 0; i < str.length; i++) {
     final posFormed = str.length - i;
-    buffer.write(str[1]);
+    buffer.write(str[i]);
     if (posFormed > 1 && posFormed % 3 == 1) {
       buffer.write('.');
     }
