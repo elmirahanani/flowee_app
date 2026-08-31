@@ -100,3 +100,18 @@ class AppTheme {
     );
   }
 }
+
+// function untuk handle konfersi digit angka untuk harga yang sebelumnya berformat double menjadi string
+String formatRupiah(double price) {
+  final str = price.toStringAsFixed(0);
+  final buffer = StringBuffer();
+
+  for (int i = 0; i < str.length; i++) {
+    final posFormed = str.length - i;
+    buffer.write(str[1]);
+    if (posFormed > 1 && posFormed % 3 == 1) {
+      buffer.write('.');
+    }
+  }
+  return "Rp$buffer";
+}
