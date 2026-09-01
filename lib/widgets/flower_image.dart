@@ -45,7 +45,7 @@ class FlowerNetworkImage extends StatelessWidget {
       errorBuilder: (context, error, stackTrace) {
         return _Placeholder(
           color: fallbackColor,
-          child: Icon(fallbackIcon, size: 48, color: fallbackColor,),
+          child: Icon(fallbackIcon, size: 48, color: fallbackColor),
         );
       },
     );
