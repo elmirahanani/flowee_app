@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-// garis kecil abu dibagian atas atau sebuah "shee UI" sebagai tanda, bahwa screen bisa di drag
+// garis kecil abu dibagian atas atau sebuah "sheet UI" sebagai tanda, bahwa screen bisa di drag
 class SheetDragHandle extends StatelessWidget {
   const SheetDragHandle({super.key});
 
