@@ -43,7 +43,7 @@ class CategoryChipList extends StatelessWidget {
             pressElevation: 0,
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
           );
-        } ,
+        },
       ),
     );
   }

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 // ini adalah tombol bulat dengan icon ditengahnya yang muncul di beberapa screen
 class CircleIconButton extends StatelessWidget {
-  const CircleIconButton({super.key, required this.icon, required this.onTap, required this.iconColor});
+  const CircleIconButton({super.key, required this.icon, required this.onTap, this.iconColor = Colors.black87});
 
   final IconData icon;
   final VoidCallback onTap;
