@@ -15,7 +15,7 @@ class SearchField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
-      onChanged: onChanged,
+      onChanged: onChanged, // bakal menyimpan perubahan yang ditulis oler user, dan akan mencari secara otomatis
       decoration: InputDecoration(
         hintText: 'Cari Mawar, Tulip, atau Anggrek..',
         hintStyle: TextStyle(color: AppTheme.textSecondary, fontSize: 13.5),
